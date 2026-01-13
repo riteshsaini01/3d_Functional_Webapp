@@ -1,4 +1,4 @@
-import 'boxicons/css/boxicons.min.css';
+import { IoMdMenu } from "react-icons/io";
 
 const Header = () => {
 
@@ -19,26 +19,41 @@ const toggleMobileMenu = () => {
   return (
     <header className="flex justify-between
     items-center py-4 px-4 lg:px-20">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-light m-0">RCODE</h1>
+        <h1 data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            className="text-3xl md:text-4xl lg:text-5xl font-light m-0">RCODE</h1>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-12">
-          <a className="text-base tracking-wider 
+          <a data-aos="fade-down"
+             data-aos-easing="linear"
+             data-aos-duration="1000" 
+             className="text-base tracking-wider 
           transition-colors hover:text-gray-300 z-50" href="#">
             COMPANY
           </a>
 
-          <a className="text-base tracking-wider 
+          <a data-aos="fade-down"
+             data-aos-easing="linear"
+             data-aos-duration="1500"
+             className="text-base tracking-wider 
           transition-colors hover:text-gray-300 z-50" href="#">
             FEATURES
           </a>
 
-          <a className="text-base tracking-wider 
+          <a data-aos="fade-down"
+             data-aos-easing="linear"
+             data-aos-duration="2000" 
+             className="text-base tracking-wider 
           transition-colors hover:text-gray-300 z-50" href="#">
             RESOURCES
           </a>
 
-          <a className="text-base tracking-wider 
+          <a data-aos="fade-down"
+             data-aos-easing="linear"
+             data-aos-duration="2500" 
+             className="text-base tracking-wider 
           transition-colors hover:text-gray-300 z-50" href="#">
             DOCS
           </a>
@@ -50,7 +65,7 @@ const toggleMobileMenu = () => {
 
         {/* Mobile Menu Button - Visible Only on Mobile */}
         <button onClick={toggleMobileMenu} className='md:hidden text-3xl p-2 z-50'>
-          <i class="bxr bx-menu" />
+          <IoMdMenu />
         </button>
 
         {/* Mobile Menu - Hidden by default */}

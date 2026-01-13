@@ -1,6 +1,19 @@
 import Header from "./components/Header"
+import Hero from "./components/Hero"
+import Aos from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 export default function App() {
+
+  useEffect(()=>{
+    Aos.init({
+      duration: 1500,
+      once: true,
+
+    })
+  })
+
   return (
     <main>
       {/* Gradient Image */}
@@ -12,6 +25,7 @@ export default function App() {
     shadow-[0_0_900px_20px_#e99b63] -rotate-[30deg] -z-10"></div>
     
     <Header/>
+    <Hero/>
 
     </main>
   )
