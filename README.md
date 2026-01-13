@@ -1,16 +1,29 @@
-# React + Vite
+# 🚀 3D Landing Page – React.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive **3D Landing Page** built using **React.js**, **Spline**, **AOS (Animate On Scroll)**, and **React Icons**.  
+This project focuses on immersive 3D visuals, smooth animations, and a responsive layout to deliver a high-quality user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- ⚛️ Built with **React.js**
+- 🧊 Interactive **3D scenes using Spline**
+- 🎞 Smooth scroll-based animations using **AOS**
+- 🎨 Icons implemented with **React Icons**
+- 📱 Fully responsive (Mobile, Tablet & Desktop)
+- ⚡ Smooth performance and clean UI/UX
+- 🌐 Modern 3D landing page design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** – Frontend framework
+- **Spline** – 3D scene integration
+- **AOS (Animate On Scroll)** – Scroll animations
+- **React Icons** – Icon library
+- **CSS / Tailwind CSS** – Styling
+- **Vite / Create React App** – Project setup
+
+---
